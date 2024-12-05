@@ -13,13 +13,10 @@ export const stages: Stage[] = [
 export const events: Event[] = [
   // Stage 1
   { id: '101', title: 'Korn', start: parseAustralianTime('20:30'), end: parseAustralianTime('21:45'), room: '1' },
-  { id: '102', title: 'Electric Callboy', start: parseAustralianTime('19:30'), end: parseAustralianTime('20:30'), room: '1' },
   { id: '103', title: 'Violent Femmes', start: parseAustralianTime('18:30'), end: parseAustralianTime('19:30'), room: '1' },
   { id: '104', title: 'Jet', start: parseAustralianTime('17:30'), end: parseAustralianTime('18:30'), room: '1' },
   { id: '105', title: 'Mastodon', start: parseAustralianTime('16:30'), end: parseAustralianTime('17:30'), room: '1' },
-  { id: '106', title: 'Northlane', start: parseAustralianTime('15:45'), end: parseAustralianTime('16:30'), room: '1' },
   { id: '107', title: 'The Living End', start: parseAustralianTime('15:00'), end: parseAustralianTime('15:45'), room: '1' },
-  { id: '108', title: '311', start: parseAustralianTime('14:15'), end: parseAustralianTime('15:00'), room: '1' },
   { id: '109', title: 'Bowling For Soup', start: parseAustralianTime('13:30'), end: parseAustralianTime('14:15'), room: '1' },
   { id: '110', title: 'Loathe', start: parseAustralianTime('12:45'), end: parseAustralianTime('13:30'), room: '1' },
 
@@ -28,7 +25,6 @@ export const events: Event[] = [
   { id: '202', title: 'Jet', start: parseAustralianTime('17:30'), end: parseAustralianTime('18:30'), room: '2' },
   { id: '203', title: 'Northlane', start: parseAustralianTime('15:45'), end: parseAustralianTime('16:30'), room: '2' },
   { id: '204', title: '311', start: parseAustralianTime('14:15'), end: parseAustralianTime('15:00'), room: '2' },
-  { id: '205', title: 'Loathe', start: parseAustralianTime('12:45'), end: parseAustralianTime('13:30'), room: '2' },
 
   // Stage 3
   { id: '301', title: 'Billy Corgan', start: parseAustralianTime('20:10'), end: parseAustralianTime('21:10'), room: '3' },
